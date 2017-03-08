@@ -1,7 +1,5 @@
 @extends('main')
 
-@section('title', 'Page Title')
-
 @section('content')
     <div class="loginpanel">
     <div class="loginpanelinner">
