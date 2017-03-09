@@ -12,6 +12,5 @@
 */
 
 Route::any('/', 'UserController@login')->name('login');
-//Route::get('/', function () {
-//    return view('welcome');
-//});
+Route::get('/screen-list', 'ScreenController@index')->name('screen_list');
+Route::get('/screen-create', 'ScreenController@create')->name('screen_create');
